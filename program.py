@@ -92,8 +92,12 @@ def main(args):
 	for line in queryfile:
 		data = getIngredients(line)
 		termCount(data, queryTerms)
-		testing_dict[count] = data
-		testing_list.append(data)
+		#testing_dict[count] = data
+		temp_each_query = ""
+		for item in data:
+			temp_each_query += item + " "
+		testing_list.append(temp_each_query)
+		testing_dict[count] = temp_each_query
 		count += 1
 
 	idf_query_dict = idf_query(testing_list)
