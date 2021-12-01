@@ -111,7 +111,7 @@ def main(args):
 
 
 	#Open Abstracts of Journals
-	readfile = open("/Users/junyi/Documents/NLP/Final Project/NLP_Project/cleaned_corpus/cleanTrain.txt", "r")
+	readfile = open("cleaned_corpus/cleanTrain.txt", "r")
 	contents = readfile.readlines()
 	count = 0
 
