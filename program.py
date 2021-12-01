@@ -57,6 +57,24 @@ def calculate_tf_query(queries_dict):
 				tf_query[current_num][word] += 1
 	return tf_query
 
+def calculate_idf_abstract(abstract_dict):
+	temp_idf_abstract = {}
+	for current_num in abstract_dict.keys():
+		abstract_tokens = word_tokenize(abstract_dict[current_num])
+		num_of_sameword_in_same_abstract = 0
+		for word in abstract_tokens:
+			if word not in temp_idf_abstract:
+				temp_idf_abstract[word] = 1
+				num_of_sameword_in_same_abstract += 1
+			elif word in temp_idf_abstract and num_of_sameword_in_same_abstract == 0:
+				num_of_sameword_in_same_abstract += 1
+
+	idf_abstract = {}
+	for word in temp_idf_abstract:
+		idf_abstract[word] = np.log(1400 / temp_idf_abstract[word])
+
+
+
 def termCount(terms, freq):
 	for term in terms:
 		if term in freq:
@@ -118,14 +136,13 @@ def main(args):
 	readfile = open("cleaned_corpus/cleanTrain.txt", "r")
 	contents = readfile.readlines()
 	count = 0
-
-
+	abstract_dict = {}
 	for line in contents:
 		data = getIngredients(line)
 		getCuisine(line)
 		termCount(data, abstractTerms)
 		recipes[count] = data
-		cuisine[count] = cuisine
+		#cuisine[count] = cuisine
 		count += 1
 
 
