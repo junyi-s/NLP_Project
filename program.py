@@ -30,34 +30,32 @@ def getCuisine(line):
 def idf_query(queries_list):
 	temp_idf_query = {}
 	for each_query in queries_list:
-	    query_tokens = word_tokenize(each_query)
-	    num_of_sameword_in_same_query = 0
-	    for word in query_tokens:
-	        if word not in temp_idf_query:
-	            temp_idf_query[word] = 1
-	            num_of_sameword_in_same_query += 1
-	        elif word in temp_idf_query and num_of_sameword_in_same_query == 0:
-	            temp_idf_query[word] += 1
+		query_tokens = word_tokenize(each_query)
+		num_of_sameword_in_same_query = 0
+		for word in query_tokens:
+			if word not in temp_idf_query:
+				temp_idf_query[word] = 1
+				num_of_sameword_in_same_query += 1
+			elif word in temp_idf_query and num_of_sameword_in_same_query == 0:
+				temp_idf_query[word] += 1
 
 	idf_query_dict = {}
 	for word in temp_idf_query:
-	    idf_query_dict[word] = np.log(9997/temp_idf_query[word])
+		idf_query_dict[word] = np.log(9997/temp_idf_query[word])
 
 	return idf_query_dict
 
 def calculate_tf_query(queries_dict):
 	tf_query = {}
 	for current_num in queries_dict:
-	    tf_query[current_num] = {}
-	    query_tokens = word_tokenize(queries_dict[current_num])
-	    for word in query_tokens:
-	        if word not in tf_query[current_num]:
-	            tf_query[current_num][word] = 1
-	        else:
-	            tf_query[current_num][word] += 1
+		tf_query[current_num] = {}
+		query_tokens = word_tokenize(queries_dict[current_num])
+		for word in query_tokens:
+			if word not in tf_query[current_num]:
+				tf_query[current_num][word] = 1
+			else:
+				tf_query[current_num][word] += 1
 	return tf_query
-
-
 
 def termCount(terms, freq):
 	for term in terms:
@@ -103,9 +101,9 @@ def main(args):
 
 	tf_idf_query = {}
 	for current_num in tf_query_dict:
-	    tf_idf_query[current_num] = {}
-	    for word in tf_query_dict[current_num]:
-	        tf_idf_query[current_num][word] = tf_query_dict[current_num][word] * idf_query_dict[word]
+		tf_idf_query[current_num] = {}
+		for word in tf_query_dict[current_num]:
+			tf_idf_query[current_num][word] = tf_query_dict[current_num][word] * idf_query_dict[word]
 
 	print(tf_idf_query)
 
