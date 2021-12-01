@@ -196,22 +196,22 @@ def main(args):
 	vectors_for_abstract = {} #vectors_for_abstract[Q_num][A_num][word both in Q and A] = [] => vectors(list) for abstract
 #Finding vectors for abstract: Later use for cosine similarity
 	for current_Q_num in tf_idf_query:
-	    current_query_words = tf_idf_query[current_Q_num].keys()
-	    # current_query_vector = []
-	    # for word in current_query_words:
-	    #     current_query_vector = tf_idf_query[current_Q_num][word]
-	    vectors_for_abstract[current_Q_num] = {}
-	    for current_A_num in tf_idf_abstract:
-	        vectors_for_abstract[current_Q_num][current_A_num] = {}
-	        for word in current_query_words:
-	            vectors_for_abstract[current_Q_num][current_A_num][word] = {}
-	            if word in tf_idf_abstract[current_A_num]:
-	                # if tf_idf_abstract[current_A_num][word] <0 :
-	                #     print('here', current_A_num, word)
-	                #     break
-	                vectors_for_abstract[current_Q_num][current_A_num][word] = tf_idf_abstract[current_A_num][word]
-	            else:
-	                vectors_for_abstract[current_Q_num][current_A_num][word] = 0
+		current_query_words = tf_idf_query[current_Q_num].keys()
+		# current_query_vector = []
+		# for word in current_query_words:
+		#     current_query_vector = tf_idf_query[current_Q_num][word]
+		vectors_for_abstract[current_Q_num] = {}
+		for current_A_num in tf_idf_abstract:
+			vectors_for_abstract[current_Q_num][current_A_num] = {}
+			for word in current_query_words:
+				vectors_for_abstract[current_Q_num][current_A_num][word] = {}
+				if word in tf_idf_abstract[current_A_num]:
+					# if tf_idf_abstract[current_A_num][word] <0 :
+					#     print('here', current_A_num, word)
+					#     break
+					vectors_for_abstract[current_Q_num][current_A_num][word] = tf_idf_abstract[current_A_num][word]
+				else:
+					vectors_for_abstract[current_Q_num][current_A_num][word] = 0
 
 	cosine = cosine(vectors_for_abstract)
 	sorted_cosine = sort(cosine)
