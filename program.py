@@ -71,9 +71,23 @@ def calculate_idf_abstract(abstract_dict):
 
 	idf_abstract = {}
 	for word in temp_idf_abstract:
-		idf_abstract[word] = np.log(1400 / temp_idf_abstract[word])
+		idf_abstract[word] = np.log(29777 / temp_idf_abstract[word])
+	return idf_abstract
 
+def calculate_tf_abstract(abstract_dict):
+	tf_abstract = {}
+	for current_num in abstract_dict:
+		tf_abstract[current_num] = {}
+		abstract_tokens = word_tokenize(abstract_dict[current_num])
+		for word in abstract_tokens:
+			if word not in tf_abstract[current_num]:
+				tf_abstract[current_num][word] = 1
+			else:
+				tf_abstract[current_num][word] += 1
+	return tf_abstract
 
+def findCuisine (abstract_index, cuisine_list):
+	cuisine = cuisine_list[abstract_index]
 
 def termCount(terms, freq):
 	for term in terms:
@@ -94,7 +108,6 @@ def cosine (vectors_for_abstract):
 				cos_sim = 0
 			cosine_sim[q_num][a_num] = cos_sim
 	return cosine_sim
-
 
 #Main Program
 def main(args):
@@ -139,14 +152,26 @@ def main(args):
 	abstract_dict = {}
 	for line in contents:
 		data = getIngredients(line)
-		getCuisine(line)
+		c = getCuisine(line)
 		termCount(data, abstractTerms)
 		recipes[count] = data
-		#cuisine[count] = cuisine
+		temp_each_abstract = ""
+		for item in data:
+			temp_each_abstract += item + " "
+		abstract_dict[count] = temp_each_abstract
+		cuisine[count] = c
 		count += 1
 
+	idf_abstract_dict = calculate_idf_abstract(abstract_dict)
+	tf_abstract_dict = calculate_tf_abstract(abstract_dict)
 
+	tf_idf_abstract = {}
+	for current_num in tf_abstract_dict:
+		tf_idf_abstract[current_num] = {}
+		for word in tf_abstract_dict[current_num]:
+			tf_idf_abstract[current_num][word] = tf_abstract_dict[current_num][word] * idf_abstract_dict[word]
 
+	print(tf_idf_abstract)
 	# print(termCount)
 	# print(recipes)
 	# print(testing)
