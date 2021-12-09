@@ -159,7 +159,7 @@ def main(args):
 		for word in tf_query_dict[current_num]:
 			tf_idf_query[current_num][word] = tf_query_dict[current_num][word] * idf_query_dict[word]
 
-	print(tf_idf_query)
+	#print(tf_idf_query)
 
 
 
@@ -190,12 +190,14 @@ def main(args):
 		for word in tf_abstract_dict[current_num]:
 			tf_idf_abstract[current_num][word] = tf_abstract_dict[current_num][word] * idf_abstract_dict[word]
 
-	print(tf_idf_abstract)
+	#print(tf_idf_abstract)
 
-
-	vectors_for_abstract = {} #vectors_for_abstract[Q_num][A_num][word both in Q and A] = [] => vectors(list) for abstract
-#Finding vectors for abstract: Later use for cosine similarity
+	vectors_for_abstract = {}  # vectors_for_abstract[Q_num][A_num][word both in Q and A] = [] => vectors(list) for abstract
+	# Finding vectors for abstract: Later use for cosine similarity
+	count_for_output = 0
 	for current_Q_num in tf_idf_query:
+		print("here", count_for_output)
+		count_for_output += 1
 		current_query_words = tf_idf_query[current_Q_num].keys()
 		# current_query_vector = []
 		# for word in current_query_words:
@@ -213,9 +215,22 @@ def main(args):
 				else:
 					vectors_for_abstract[current_Q_num][current_A_num][word] = 0
 
-	cosine = cosine(vectors_for_abstract)
-	sorted_cosine = sort(cosine)
-	answers =
+	cosine_similarity_dict = cosine(vectors_for_abstract) #cosine_similarity_dict[Q_num][A_num] = cosine similarity
+	sorted_cosine = sort(cosine_similarity_dict)
+	#
+	# f_output = open("output.txt", "w")
+	# for q_num in sorted_cosine:
+	# 	for abs_data in sorted_cosine[q_num]:
+	# 		if (abs_data[1] == 0):
+	# 			continue
+	# 		f_output.write(str(q_num) + " " + str(abs_data[0]) + " " + str(abs_data[1]) + "\n")
+	# 	# f_output.write(str(abs_data[0])+" ")
+	# 	# f_output.write(str(abs_data[1])+ "\n")
+	#
+	# f_output.close()
+	# # print("start")
+	# # print(sorted_cosine)
+	# # print("done")
 
 
 
