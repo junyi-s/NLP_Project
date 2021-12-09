@@ -169,6 +169,7 @@ def main(args):
 	contents = readfile.readlines()
 	count = 0
 	abstract_dict = {}
+	cuisine_abstract = {}
 	for line in contents:
 		data = getIngredients(line)
 		c = getCuisine(line)
@@ -220,7 +221,7 @@ def main(args):
 		for abs_data in sorted_cosine[q_num]:
 			if (abs_data[1] == 0):
 				continue
-			f_output.write(str(q_num) + " " + str(cuisine[abs_data[0]]) + "\n")
+			f_output.write(str(q_num) + " " + str(cuisine_abstract[abs_data[0]]) + "\n")
 
 	f_output.close()
 
