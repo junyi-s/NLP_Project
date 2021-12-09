@@ -208,32 +208,21 @@ def main(args):
 			for word in current_query_words:
 				vectors_for_abstract[current_Q_num][current_A_num][word] = {}
 				if word in tf_idf_abstract[current_A_num]:
-					# if tf_idf_abstract[current_A_num][word] <0 :
-					#     print('here', current_A_num, word)
-					#     break
 					vectors_for_abstract[current_Q_num][current_A_num][word] = tf_idf_abstract[current_A_num][word]
 				else:
 					vectors_for_abstract[current_Q_num][current_A_num][word] = 0
 
 	cosine_similarity_dict = cosine(vectors_for_abstract) #cosine_similarity_dict[Q_num][A_num] = cosine similarity
 	sorted_cosine = sort(cosine_similarity_dict)
-	#
-	# f_output = open("output.txt", "w")
-	# for q_num in sorted_cosine:
-	# 	for abs_data in sorted_cosine[q_num]:
-	# 		if (abs_data[1] == 0):
-	# 			continue
-	# 		f_output.write(str(q_num) + " " + str(abs_data[0]) + " " + str(abs_data[1]) + "\n")
-	# 	# f_output.write(str(abs_data[0])+" ")
-	# 	# f_output.write(str(abs_data[1])+ "\n")
-	#
-	# f_output.close()
-	# # print("start")
-	# # print(sorted_cosine)
-	# # print("done")
+	
+	f_output = open("output.txt", "w")
+	for q_num in sorted_cosine:
+		for abs_data in sorted_cosine[q_num]:
+			if (abs_data[1] == 0):
+				continue
+			f_output.write(str(q_num) + " " + str(cuisine[abs_data[0]]) + "\n")
 
-
-
+	f_output.close()
 
 
 if __name__ == '__main__':
