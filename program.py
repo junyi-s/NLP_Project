@@ -117,7 +117,7 @@ def cosine (vectors_for_abstract):
 	for q_num in vectors_for_abstract:
 		cosine_sim[q_num] = {}
 		q_vector = list(vectors_for_abstract[q_num].values())
-		for a_num in vectors_for_abstract[q_num][a_num].keys():
+		for a_num in vectors_for_abstract[q_num].keys():
 			a_vector = list(vectors_for_abstract[q_num][a_num].values())
 			cos_sim = dot(q_vector, a_vector) / (norm(q_vector) * norm(a_vector))
 			if math.isnan(cos_sim):
