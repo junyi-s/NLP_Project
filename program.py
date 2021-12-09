@@ -222,6 +222,7 @@ def main(args):
 			if (abs_data[1] == 0):
 				continue
 			f_output.write(str(q_num) + " " + str(cuisine_abstract[abs_data[0]]) + "\n")
+			break
 
 	f_output.close()
 
