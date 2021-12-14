@@ -172,10 +172,10 @@ def main(args):
 		for item in data:
 			temp_each_query += item + " "
 		testing_list.append(temp_each_query)
-		testing_dict[count] = temp_each_query
-		cuisine_query[count] = c
-		ID_query[count] = ID
-		count += 1
+		testing_dict[ID] = temp_each_query
+		cuisine_query[ID] = c
+# 		ID_query[count] = ID
+# 		count += 1
 
 	idf_query_dict = idf_query(testing_list)
 	tf_query_dict = calculate_tf_query(testing_dict)
@@ -242,13 +242,13 @@ def main(args):
 	sorted_cosine = sort(cosine_similarity_dict)
 	
 	f_output = open("output.txt", "w")
-	t = 0
+# 	t = 0
 	for q_num in sorted_cosine:
 		for abs_data in sorted_cosine[q_num]:
 			if (abs_data[1] == 0):
 				continue
-			f_output.write(ID_query[t] + " " + str(cuisine_abstract[abs_data[0]]) + " " + cuisine_query[t] + "\n")
-			t += 1
+			f_output.write(str(q_num) + " " + str(cuisine_abstract[abs_data[0]]) + " " + cuisine_query[t] + "\n")
+# 			t += 1
 			break
 
 	f_output.close()
