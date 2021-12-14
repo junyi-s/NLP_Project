@@ -192,7 +192,7 @@ def main(args):
 
 
 	#Open Abstracts of Journals
-	readfile = open("cleanTrain.txt", "r")
+	readfile = open("abstract4.txt", "r")
 	contents = readfile.readlines()
 	count = 0
 	abstract_dict = {}
