@@ -17,6 +17,13 @@ def getCuisine(line):
 	cuisine = t2[1]
 	return cuisine
 
+def getID(line):
+	temp = line.split("id")
+	t1 = temp[1].split(":")
+	t2 = t1[1].split(",")
+	ID = t2[0]
+	return ID
+
 #tf-idf of query in hw4
 def tf_idf_query():
 	temp_idf_query = {}
@@ -34,31 +41,34 @@ def cosine (query_vector, abstracts_vector):
 #Main Program
 def main(args):
 	mainfile = open(sys.argv[1], "r")
+	contents = mainfile.readlines()
 
 	#Open Abstracts of Journals
-	readfile = open("/Users/junyi/Documents/NLP/Final Project/NLP_Project/cleaned_corpus/cleanTrain.txt", "r")
-	contents = readfile.readlines()
+	# readfile = open("/Users/junyi/Documents/NLP/Final Project/NLP_Project/cleaned_corpus/cleanTrain.txt", "r")
+	# contents = readfile.readlines()
 	count = 0
 	recipes = dict()
 	freq = {}
 	cuisine = dict()
 
 	for line in contents:
-		data = getIngredients(line)
-		getCuisine(line)
-		# termCount(data, freq)
-		recipes[count] = data
-		cuisine[count] = cuisine
-		count += 1
+		#data = getIngredients(line)
+		# getCuisine(line)
+		print(line)
+		getID(line)
+	# 	# termCount(data, freq)
+	# 	recipes[count] = data
+	# 	cuisine[count] = cuisine
+	# 	count += 1
 
-	queryfile = mainfile.readlines()
-	count = 0
-	testing = {}
-	for line in queryfile:
-		data = getIngredients(line)
-		# termCount(data, freq)
-		testing[count] = data
-		count += 1
+	# queryfile = mainfile.readlines()
+	# count = 0
+	# testing = {}
+	# for line in queryfile:
+	# 	data = getIngredients(line)
+	# 	# termCount(data, freq)
+	# 	testing[count] = data
+	# 	count += 1
 
 	# print(termCount)
 	# print(recipes)

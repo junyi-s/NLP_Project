@@ -26,6 +26,13 @@ def getCuisine(line):
 	cuisine = t2[1]
 	return cuisine
 
+def getID(line):
+	temp = line.split("id")
+	t1 = temp[1].split(":")
+	t2 = t1[1].split(",")
+	ID = t2[0]
+	return ID
+
 #idf of query in hw4
 def idf_query(queries_list):
 	temp_idf_query = {}
@@ -41,7 +48,7 @@ def idf_query(queries_list):
 
 	idf_query_dict = {}
 	for word in temp_idf_query:
-		idf_query_dict[word] = np.log(1000/temp_idf_query[word])
+		idf_query_dict[word] = np.log(100/temp_idf_query[word])
 
 	return idf_query_dict
 
@@ -71,7 +78,7 @@ def calculate_idf_abstract(abstract_dict):
 
 	idf_abstract = {}
 	for word in temp_idf_abstract:
-		idf_abstract[word] = np.log(5000 / temp_idf_abstract[word])
+		idf_abstract[word] = np.log(29777 / temp_idf_abstract[word])
 	return idf_abstract
 
 def calculate_tf_abstract(abstract_dict):
@@ -154,9 +161,11 @@ def main(args):
 	count = 0
 	testing_dict = {}
 	testing_list = []
+	ID_query = {}
 	for line in queryfile:
 		data = getIngredients(line)
 		c = getCuisine(line)
+		ID = getID(line)
 		termCount(data, queryTerms)
 		#testing_dict[count] = data
 		temp_each_query = ""
@@ -165,6 +174,7 @@ def main(args):
 		testing_list.append(temp_each_query)
 		testing_dict[count] = temp_each_query
 		cuisine_query[count] = c
+		ID_query[count] = ID
 		count += 1
 
 	idf_query_dict = idf_query(testing_list)
@@ -182,21 +192,19 @@ def main(args):
 
 
 	#Open Abstracts of Journals
-	readfile = open("Abstracts.txt", "r")
+	readfile = open("cleanTrain.txt", "r")
 	contents = readfile.readlines()
 	count = 0
 	abstract_dict = {}
-	cuisine_abstract = {}
+	id_abstract = {}
 	for line in contents:
 		data = getIngredients(line)
-		c = getCuisine(line)
 		termCount(data, abstractTerms)
 		recipes[count] = data
 		temp_each_abstract = ""
 		for item in data:
 			temp_each_abstract += item + " "
 		abstract_dict[count] = temp_each_abstract
-		cuisine_abstract[count] = c
 		count += 1
 
 	idf_abstract_dict = calculate_idf_abstract(abstract_dict)
@@ -234,11 +242,13 @@ def main(args):
 	sorted_cosine = sort(cosine_similarity_dict)
 	
 	f_output = open("output.txt", "w")
+	t = 0
 	for q_num in sorted_cosine:
 		for abs_data in sorted_cosine[q_num]:
 			if (abs_data[1] == 0):
 				continue
-			f_output.write(str(q_num) + " " + str(cuisine_abstract[abs_data[0]]) + "\n")
+			f_output.write(ID_query[t] + " " + str(cuisine_abstract[abs_data[0]]) + " " + cuisine_query[t] + "\n")
+			t += 1
 			break
 
 	f_output.close()
