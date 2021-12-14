@@ -197,17 +197,17 @@ def main(args):
 	count = 0
 	abstract_dict = {}
 	id_abstract = {}
-    cuisine_abstract = {}
+	cuisine_abstract = {}
 	for line in contents:
 		data = getIngredients(line)
-        c = getCuisine(line)
+		c = getCuisine(line)
 		termCount(data, abstractTerms)
 		recipes[count] = data
 		temp_each_abstract = ""
 		for item in data:
 			temp_each_abstract += item + " "
 		abstract_dict[count] = temp_each_abstract
-        cuisine_abstract[count] = c
+		cuisine_abstract[count] = c
 		count += 1
 
 	idf_abstract_dict = calculate_idf_abstract(abstract_dict)
