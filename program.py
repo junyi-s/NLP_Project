@@ -41,7 +41,7 @@ def idf_query(queries_list):
 
 	idf_query_dict = {}
 	for word in temp_idf_query:
-		idf_query_dict[word] = np.log(5000/temp_idf_query[word])
+		idf_query_dict[word] = np.log(1000/temp_idf_query[word])
 
 	return idf_query_dict
 
@@ -71,7 +71,7 @@ def calculate_idf_abstract(abstract_dict):
 
 	idf_abstract = {}
 	for word in temp_idf_abstract:
-		idf_abstract[word] = np.log(15000 / temp_idf_abstract[word])
+		idf_abstract[word] = np.log(5000 / temp_idf_abstract[word])
 	return idf_abstract
 
 def calculate_tf_abstract(abstract_dict):
@@ -182,7 +182,7 @@ def main(args):
 
 
 	#Open Abstracts of Journals
-	readfile = open("sampleAbstracts.txt", "r")
+	readfile = open("Abstracts.txt", "r")
 	contents = readfile.readlines()
 	count = 0
 	abstract_dict = {}
