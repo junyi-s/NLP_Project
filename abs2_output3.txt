@@ -1,4 +1,4 @@
-abs2_output37660 mexican
+37660 mexican
 7051 chinese
 21945 chinese
 3391 southern_us

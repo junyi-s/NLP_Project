@@ -29,7 +29,7 @@ def main(args):
         ID = getID(line)
         qryCuisine[ID] = cuisine
     
-    total_correct = 0
+    # total_correct = 0
     percentCorrect = {}
     for i in range (1, len(sys.argv)):
         #output schema = id cuisine
@@ -44,10 +44,10 @@ def main(args):
             if qryGuess[guess] == qryCuisine[guess]:
                 correct += 1
         percentCorrect[sys.argv[i]] = correct/100
-        total_correct += correct
+        # total_correct += correct
         outputFile.close()
-    out = open("scores.txt", "w")
-    print(total_correct/2000)
+    out = open("testscores.txt", "w")
+    # print(total_correct/2000)
     for file in percentCorrect:
         out.write(file + " " + str(percentCorrect[file]) + "\n")
 

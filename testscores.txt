@@ -1,0 +1,29 @@
+abs1_output1.txt 0.69
+abs1_output2.txt 0.56
+abs1_output3.txt 0.72
+abs1_output4.txt 0.56
+abs1_output5.txt 0.61
+
+abs2_output1.txt 0.69
+abs2_output2.txt 0.56
+abs2_output3.txt 0.72
+abs2_output4.txt 0.56
+abs2_output5.txt 0.61
+
+abs3_output1.txt 0.73
+abs3_output2.txt 0.66
+abs3_output3.txt 0.68
+abs3_output4.txt 0.71
+abs3_output5.txt 0.63
+
+abs4_output1.txt 0.73
+abs4_output2.txt 0.68
+abs4_output3.txt 0.71
+abs4_output4.txt 0.76
+abs4_output5.txt 0.61
+
+output1.txt 0.71
+output2.txt 0.69
+output3.txt 0.71
+output4.txt 0.77
+output5.txt 0.61
