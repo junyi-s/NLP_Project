@@ -126,17 +126,21 @@ def termCount(terms, freq):
 # 	return cosine_sim
 
 def cosine (vectors_for_abstract, tf_idf_query):
-	cosine_sim = {}
-	for q_num in vectors_for_abstract:
-		cosine_sim[q_num] = {}
+	# Find cosine similarity
+	cosine_similarity_dict = {}  # cosine_similarity_dict[Q_num][A_num] = cosine similarity
+
+	# for current_Q_num in tf_idf_query:
+	#     current_query_words = tf_idf_query[current_Q_num].keys()
+	for q_num in vectors_for_abstract.keys():
+		cosine_similarity_dict[q_num] = {}
 		q_vector = list(tf_idf_query[q_num].values())
 		for a_num in vectors_for_abstract[q_num].keys():
 			a_vector = list(vectors_for_abstract[q_num][a_num].values())
 			cos_sim = dot(q_vector, a_vector) / (norm(q_vector) * norm(a_vector))
 			if math.isnan(cos_sim):
 				cos_sim = 0
-			cosine_sim[q_num][a_num] = cos_sim
-	return cosine_sim
+			cosine_similarity_dict[q_num][a_num] = cos_sim
+	return cosine_similarity_dict
 
 #Main Program
 def main(args):
