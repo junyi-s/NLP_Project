@@ -21,7 +21,7 @@ def getID(line):
 
 
 def main(args):
-    qryFile = open("cleanTrain.txt","r")
+    qryFile = open("cleanTest.txt","r")
     recipes = qryFile.readlines()
     qryCuisine = {}
     for line in recipes:
@@ -30,9 +30,9 @@ def main(args):
         qryCuisine[ID] = cuisine
     
     percentCorrect = {}
-    for i in range (1, len(argv)):
+    for i in range (1, len(sys.argv)):
         #output schema = id cuisine
-        outputFile = open(argv[i], "r")
+        outputFile = open(sys.argv[i], "r")
         guesses = outputFile.readlines()
         correct = 0
         qryGuess = {}
@@ -42,11 +42,11 @@ def main(args):
         for guess in qryGuess:
             if qryGuess[guess] == qryCuisine[guess]:
                 correct += 1
-        percentCorrect[argv[i]] = correct/100
+        percentCorrect[sys.argv[i]] = correct/100
         outputFile.close()
     out = open("scores.txt", "w")
     for file in percentCorrect:
-        print(file + " " + percentCorrect[file] + "\n")
+        out.write(file + " " + str(percentCorrect[file]) + "\n")
 
 if __name__ == '__main__':
 	main(sys.argv)
