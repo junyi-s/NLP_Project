@@ -1,0 +1,100 @@
+{"cuisine":"brazilian","id":34412,"ingredients":["fresh lime","passion fruit juice","granulated sugar","cachaca"]}
+{"cuisine":"southern_us","id":28259,"ingredients":["lime juice","sea salt","maple syrup","coconut oil","dates","vanilla","pecans","large eggs","sweetened coconut flakes","sweetened condensed milk","sugar","heavy cream","crust"]}
+{"cuisine":"italian","id":41267,"ingredients":["lasagna noodles","shallots","2% reduced-fat milk","olive oil","grated parmesan cheese","baby spinach","all-purpose flour","unsalted butter","dry white wine","large garlic cloves","grated lemon peel","fontina cheese","large eggs","ricotta cheese","salt"]}
+{"cuisine":"mexican","id":457,"ingredients":["salsa","refried beans","shredded cheddar cheese","onions","flour tortillas"]}
+{"cuisine":"indian","id":36640,"ingredients":["curry leaves","coriander seeds","salt","onions","water","ginger","green chilies","chiles","vegetable oil","white fleshed fish","ground turmeric","coconut","garlic","cumin seed"]}
+{"cuisine":"french","id":7520,"ingredients":["lemon","green beans","slivered almonds"]}
+{"cuisine":"indian","id":5296,"ingredients":["tomatoes","hard-boiled egg","curry","curry powder","spices","squid","water","shallots","salt","cooking oil","chili oil","coconut milk"]}
+{"cuisine":"indian","id":21769,"ingredients":["granulated sugar","large egg yolks","heavy cream","light brown sugar","ground cardamom"]}
+{"cuisine":"italian","id":13452,"ingredients":["focaccia","freshly grated parmesan","low moisture mozzarella","tomato sauce","pepperoni","butter"]}
+{"cuisine":"mexican","id":36530,"ingredients":["honey","non-fat sour cream","corn tortillas","vidalia onion","tomatillos","garlic cloves","cooking spray","salt","ground cumin","fat free less sodium chicken broth","cilantro sprigs","nopalitos"]}
+{"cuisine":"korean","id":42236,"ingredients":["soy sauce","sugar","garlic","red chili peppers","white sesame seeds","sesame","chili pepper"]}
+{"cuisine":"southern_us","id":14133,"ingredients":["country ham","dijon mustard","salt","celery ribs","sugar","apple cider vinegar","celery","eggs","ground black pepper","extra-virgin olive oil","mayonaise","chives","ham"]}
+{"cuisine":"filipino","id":17381,"ingredients":["salt and ground black pepper","shrimp","pork","cooking oil","bamboo shoots","vinegar","onions","minced garlic","salt"]}
+{"cuisine":"chinese","id":36536,"ingredients":["pepper","long-grain rice","eggs","salt","roast duck meat","green onions","soy sauce","barbecued pork"]}
+{"cuisine":"greek","id":11139,"ingredients":["eggs","kosher salt","parsley","purple onion","ground beef","ketchup","feta cheese","red wine vinegar","smoked paprika","oregano","brown sugar","whole grain mustard","cinnamon","dry bread crumbs","glaze","black pepper","cayenne","garlic","fresh mint"]}
+{"cuisine":"indian","id":29976,"ingredients":["low-fat plain yogurt","garlic","gingerroot","ground turmeric","Nakano Seasoned Rice Vinegar","yellow onion","chicken fingers","ground nutmeg","salt","ground coriander","ground cumin","ground cinnamon","paprika","cayenne pepper","ground cardamom"]}
+{"cuisine":"cajun_creole","id":41569,"ingredients":["hot pepper sauce","butter","all-purpose flour","shrimp","chicken broth","file powder","chopped celery","chopped onion","chicken thighs","andouille sausage links","chopped green bell pepper","garlic","cayenne pepper","fresh parsley","water","fresh thyme","salt","okra","canola oil"]}
+{"cuisine":"mexican","id":21827,"ingredients":["tomatoes","taco seasoning","cream of chicken soup","sour cream","milk","shredded cheese","cooked chicken","doritos"]}
+{"cuisine":"indian","id":42425,"ingredients":["olive oil","raw cashews","kosher salt","ground pepper","ground turmeric","green cabbage","fresh ginger","cumin seed","water","quinoa"]}
+{"cuisine":"italian","id":15472,"ingredients":["mozzarella cheese","Tabasco Pepper Sauce","fresh parsley leaves","large eggs","ricotta cheese","ground black pepper","coarse salt","tomato sauce","grated parmesan cheese","crepes"]}
+{"cuisine":"italian","id":7195,"ingredients":["water","anchovy fillets","crushed red pepper","spaghettini","extra-virgin olive oil","escarole","pecorino romano cheese","garlic cloves"]}
+{"cuisine":"thai","id":38252,"ingredients":["olive oil","curry paste","fish sauce","skinless chicken breasts","coriander","sugar","chili sauce","ginger paste","lime juice","garlic cloves"]}
+{"cuisine":"italian","id":14512,"ingredients":["olive oil","garlic cloves","kosher salt","basil leaves","medium shrimp","tomatoes","ground black pepper","fresh lemon juice","baguette","crushed red pepper"]}
+{"cuisine":"indian","id":8162,"ingredients":["fresh coriander","watercress","red bell pepper","mango","serrano chilies","cayenne","gingerroot","fresh lime juice","lime zest","coriander seeds","paprika","chutney","ground cumin","plain yogurt","vegetable oil","garlic cloves","medium shrimp"]}
+{"cuisine":"italian","id":16204,"ingredients":["dried basil","grated parmesan cheese","salt","dried oregano","pepper","macaroni","garlic","onions","whole peeled tomatoes","butter","fresh parsley","olive oil","cannellini beans","carrots"]}
+{"cuisine":"italian","id":996,"ingredients":["olive oil","all-purpose flour","salt","sugar"]}
+{"cuisine":"greek","id":34298,"ingredients":["water","greek style plain yogurt","grape tomatoes","ground black pepper","medium shrimp","olive oil","couscous","pitted kalamata olives","salt","sliced green onions"]}
+{"cuisine":"french","id":35445,"ingredients":["broccoli","hard-boiled egg","grated parmesan cheese","dry bread crumbs","butter"]}
+{"cuisine":"chinese","id":19095,"ingredients":["fresh ginger","shrimp","kosher salt","vegetable oil","sugar","chili powder","water","large garlic cloves"]}
+{"cuisine":"mexican","id":39453,"ingredients":["black beans","cayenne","diced tomatoes","frozen corn kernels","low sodium vegetable broth","brown rice","salt","chopped cilantro fresh","shredded cheddar cheese","jalapeno chilies","purple onion","smoked paprika","tomato paste","olive oil","cinnamon","green pepper","ground cumin"]}
+{"cuisine":"italian","id":20069,"ingredients":["minced garlic","zucchini","fresh lemon juice","yellow squash","basil leaves","whole wheat fettuccine","cherry tomatoes","lemon zest","arugula","olive oil","salt"]}
+{"cuisine":"southern_us","id":30315,"ingredients":["unsweetened apple juice","golden brown sugar","honey","ham","whole grain dijon mustard"]}
+{"cuisine":"southern_us","id":5943,"ingredients":["carbonated water","fresh lime juice","sugar syrup","fresh lemon juice","fresh orange juice"]}
+{"cuisine":"italian","id":13805,"ingredients":["fresh parmesan cheese","whole wheat bread","garlic cloves","olive oil","cooking spray","provolone cheese","fresh parsley","tomatoes","ground black pepper","salt","sliced mushrooms","fresh basil","zucchini","frozen corn kernels","red bell pepper"]}
+{"cuisine":"brazilian","id":17744,"ingredients":["olive oil","tapioca flour","salt","milk","eggs","grating cheese"]}
+{"cuisine":"italian","id":136,"ingredients":["kosher salt","cracked black pepper","marinara sauce","chicken","olive oil","garlic cloves","pasta","mushrooms"]}
+{"cuisine":"italian","id":36314,"ingredients":["baguette","extra-virgin olive oil","coarse salt","red bell pepper","zucchini","freshly ground pepper","pesto","summer squash"]}
+{"cuisine":"indian","id":46946,"ingredients":["olive oil","ginger","onions","tofu","garam masala","garlic cloves","curry powder","vegetable stock","mustard seeds","frozen spinach","garlic powder","salt"]}
+{"cuisine":"mexican","id":7697,"ingredients":["olive oil","green chile","salt","tomatoes","dry mustard","lime juice"]}
+{"cuisine":"southern_us","id":41061,"ingredients":["spice cake mix","applesauce","blackberry jam","buttermilk","ground cinnamon","vegetable oil","large eggs","frosting"]}
+{"cuisine":"mexican","id":33975,"ingredients":["romaine lettuce","chopped tomatoes","kalamata","fresh lime juice","fresh coriander","jalapeno chilies","scallions","scrod fillets","radishes","white wine vinegar","olive oil","vegetable oil","corn tortillas"]}
+{"cuisine":"italian","id":7953,"ingredients":["green beans","chicken breasts","red potato","seasoning mix","butter"]}
+{"cuisine":"southern_us","id":3250,"ingredients":["dijon mustard","eggs","fresh tarragon","Tabasco Pepper Sauce","mayonaise","mustard seeds"]}
+{"cuisine":"filipino","id":16031,"ingredients":["black peppercorns","palm vinegar","garlic","bay leaf","soy sauce","lard","boneless pork shoulder","patis","cooked white rice"]}
+{"cuisine":"mexican","id":8129,"ingredients":["shredded cheddar cheese","yellow bell pepper","red bell pepper","corn flakes","salsa","fajita seasoning mix","orange bell pepper","purple onion","boneless skinless chicken breast halves","chili powder","fresh mushrooms"]}
+{"cuisine":"mexican","id":8857,"ingredients":["guacamole","shredded Monterey Jack cheese","olive oil","cilantro leaves","prepar salsa","flour tortillas","flat leaf parsley"]}
+{"cuisine":"thai","id":48563,"ingredients":["water","green onions","cilantro","chili sauce","coconut sugar","peanuts","sesame oil","tamari soy sauce","red bell pepper","lime juice","brown rice","garlic","carrots","sweet chili sauce","chili paste","veggies","sauce","mung bean sprouts"]}
+{"cuisine":"southern_us","id":39124,"ingredients":["lemon wedge","vegetable oil cooking spray","creole seasoning","low-fat buttermilk","catfish fillets","cornflake cereal"]}
+{"cuisine":"italian","id":4689,"ingredients":["mozzarella cheese","mushrooms","low-fat mozzarella cheese","cauliflower","garlic powder","almond meal","dried oregano","olive oil","pizza sauce","olives","eggs","grated parmesan cheese","salt"]}
+{"cuisine":"mexican","id":10905,"ingredients":["garlic powder","fat-free chicken broth","scallions","chicken breasts","salt","chopped cilantro fresh","onion powder","frozen corn","cumin","black beans","diced tomatoes","cayenne pepper"]}
+{"cuisine":"mexican","id":18211,"ingredients":["red grape","pomegranate seeds","salt","avocado","purple onion","peaches","serrano chile"]}
+{"cuisine":"japanese","id":2069,"ingredients":["tomatoes","sugar","whole wheat flour","bay leaves","salt","brown cardamom","oil","onions","ground cumin","tea bags","water","coriander seeds","seeds","all-purpose flour","curds","cinnamon sticks","boiling potatoes","clove","asafoetida","amchur","baking soda","chili powder","chickpeas","cumin seed","nigella seeds","ginger paste","black peppercorns","red chili peppers","mace","baking powder","cilantro leaves","green chilies","lemon juice","chaat masala"]}
+{"cuisine":"spanish","id":6060,"ingredients":["lemon zest","fresh lemon juice","sherry vinegar","extra-virgin olive oil","plum tomatoes","sliced almonds","harissa","red bell pepper","ground black pepper","salt","chopped garlic"]}
+{"cuisine":"mexican","id":36266,"ingredients":["pepper","achiote paste","ground coriander","red wine vinegar","salt","pork butt roast","chili powder","purple onion","lemon juice","paprika","orange juice","ground cumin"]}
+{"cuisine":"indian","id":6122,"ingredients":["melted butter","chopped cilantro","garlic","naan"]}
+{"cuisine":"mexican","id":35374,"ingredients":["granulated sugar","butter","all-purpose flour","ground cinnamon","baking powder","mexican chocolate","firmly packed brown sugar","almond extract","salt","large eggs","vanilla","unsweetened chocolate"]}
+{"cuisine":"greek","id":5939,"ingredients":["port wine","cinnamon sticks","quinces","water","white sugar","clove","heavy cream"]}
+{"cuisine":"indian","id":19708,"ingredients":["melted butter","tandoori paste","boneless, skinless chicken breast","plain yogurt","canola oil","salad","salt"]}
+{"cuisine":"russian","id":1715,"ingredients":["powdered sugar","egg whites","meringue","dried fruit","egg yolks","sour cream","dough","unsalted butter","walnuts","sugar","flour","flour for dusting"]}
+{"cuisine":"italian","id":3656,"ingredients":["mascarpone","salt","sun-dried tomatoes","butter","squid","ricotta cheese","dry bread crumbs","sesame seeds","garlic","dried oregano"]}
+{"cuisine":"greek","id":43024,"ingredients":["fresh marjoram","green onions","grated lemon peel","pitted kalamata olives","dijon mustard","feta cheese crumbles","olive oil","fresh lemon juice","cherry tomatoes","orzo"]}
+{"cuisine":"cajun_creole","id":9925,"ingredients":["unsalted butter","creole seasoning","extra large shrimp","worcestershire sauce","long grain white rice","coarse salt","scallions","celery ribs","lemon","garlic cloves"]}
+{"cuisine":"indian","id":36978,"ingredients":["water","cilantro","cinnamon sticks","canola oil","clove","fresh ginger root","salt","onions","kidney beans","garlic","bay leaf","black peppercorns","red pepper","cardamom pods","plum tomatoes"]}
+{"cuisine":"cajun_creole","id":34553,"ingredients":["lump crab meat","finely chopped onion","dry mustard","saltines","chopped green bell pepper","worcestershire sauce","sour cream","scallion greens","unsalted butter","vegetable oil","salt","cayenne","large eggs","chopped celery"]}
+{"cuisine":"mexican","id":46788,"ingredients":["coriander seeds","poblano chiles","boneless skinless chicken breasts","fresh lime juice","olive oil","purple onion","ground cumin","yellow bell pepper","chopped cilantro fresh"]}
+{"cuisine":"italian","id":22205,"ingredients":["ground black pepper","salt","garlic cloves","butter","lemon rind","onions","fettucine","1% low-fat milk","chopped walnuts","gorgonzola","butternut squash","all-purpose flour","fresh parsley"]}
+{"cuisine":"italian","id":12365,"ingredients":["fresh lemon juice","cannellini beans","flat leaf parsley","extra-virgin olive oil"]}
+{"cuisine":"indian","id":44529,"ingredients":["sourdough starter","nonfat greek yogurt","milk","kosher salt","baking powder","melted butter","whole wheat flour"]}
+{"cuisine":"italian","id":20191,"ingredients":["vegetable oil spray","salt","chocolate syrup","large eggs","chopped pecans","golden brown sugar","baking powder","miniature semisweet chocolate chips","unsalted butter","all-purpose flour"]}
+{"cuisine":"thai","id":46571,"ingredients":["fresh cilantro","seasoning","roasted peanuts","unsweetened coconut milk","cooked chicken","angel hair"]}
+{"cuisine":"greek","id":337,"ingredients":["phyllo dough","cinnamon","water","vanilla extract","sugar","butter","pecans","honey"]}
+{"cuisine":"mexican","id":27122,"ingredients":["milk","butter","huitlacoche","vegetable oil","poblano chiles","flour","salt","chile sauce","queso fresco","corn tortillas"]}
+{"cuisine":"thai","id":17846,"ingredients":["cooked rice","fresh mushrooms","basil leaves","red bell pepper","cooking oil","shrimp","red curry paste","coconut milk"]}
+{"cuisine":"southern_us","id":27485,"ingredients":["green bell pepper","celery seed","vegetable oil","cabbage","sugar","onions","white vinegar","dry mustard"]}
+{"cuisine":"spanish","id":34506,"ingredients":["turkey","cayenne pepper","long grain white rice","salt","red bell pepper","dried oregano","smoked sausage","low salt chicken broth","plum tomatoes","olive oil","yellow onion","frozen peas","saffron"]}
+{"cuisine":"mexican","id":32429,"ingredients":["pepper","jalapeno chilies","salt","garlic powder","chili powder","cream cheese","corn kernels","green onions","tortilla chips","tomatoes","Mexican cheese blend","cilantro"]}
+{"cuisine":"italian","id":5748,"ingredients":["olive oil","garlic cloves","fresh spinach","prosciutto","fettucine","fresh parmesan cheese","black pepper","large eggs"]}
+{"cuisine":"italian","id":40334,"ingredients":["ground pepper","garlic","butternut squash","half & half","rubbed sage","olive oil","coarse salt"]}
+{"cuisine":"chinese","id":44166,"ingredients":["green cabbage","green onions","corn starch","won ton wrappers","salt","medium shrimp","lean ground pork","dry sherry","low salt chicken broth","water chestnuts","gingerroot"]}
+{"cuisine":"southern_us","id":2026,"ingredients":["water","turnips","ham hock","collard greens"]}
+{"cuisine":"italian","id":7067,"ingredients":["fresh parmesan cheese","chopped fresh thyme","low sodium chicken broth","fresh asparagus","arborio rice","green onions","grated parmesan cheese","butter"]}
+{"cuisine":"italian","id":19112,"ingredients":["fronds","dijon mustard","lemon","fennel bulb","red wine vinegar","fresh parsley","prosciutto","chopped fresh thyme","frisee","olive oil","shallots","artichokes"]}
+{"cuisine":"italian","id":46623,"ingredients":["olive oil","warm water","all-purpose flour","brown sugar","salt","active dry yeast"]}
+{"cuisine":"italian","id":44563,"ingredients":["fresh basil","radishes","fresh lemon juice","black pepper","artichokes","great northern beans","extra-virgin olive oil","sliced green onions","asparagus","salt"]}
+{"cuisine":"korean","id":16527,"ingredients":["fresh rosemary","balsamic vinegar","olive oil","pepper","salt","fresh thyme leaves"]}
+{"cuisine":"thai","id":11726,"ingredients":["fish sauce","zucchini","garlic","lime","chicken breasts","chopped cilantro","coconut oil","jalapeno chilies","coconut milk","chicken broth","green curry paste","red pepper","onions"]}
+{"cuisine":"cajun_creole","id":30873,"ingredients":["mushrooms","cayenne pepper","boneless skinless chicken breast halves","green bell pepper","smoked sausage","celery","chicken broth","vegetable oil","carrots","long grain white rice","pepper","salt","onions"]}
+{"cuisine":"british","id":17162,"ingredients":["English mustard","flour","beef fillet","parma ham","mushrooms","ground black pepper","sea salt","olive oil","egg yolks","puff pastry"]}
+{"cuisine":"mexican","id":2227,"ingredients":["black beans","penne pasta","fresh spinach","garlic","ground turkey","tomato paste","corn","taco seasoning","tomato sauce","salsa","onions"]}
+{"cuisine":"french","id":2977,"ingredients":["cold water","unsalted butter","amber","sugar","salt","pecans","large eggs","maple sugar","light brown sugar","cider vinegar","all-purpose flour"]}
+{"cuisine":"mexican","id":45775,"ingredients":["extra lean ground beef","cheese","zesty italian dressing","green pepper","flour tortillas","salsa","red pepper","chopped cilantro"]}
+{"cuisine":"moroccan","id":9625,"ingredients":["olive oil","salt","fresh thyme","unsalted butter","ground cumin","lamb rib chops","harissa"]}
+{"cuisine":"indian","id":17122,"ingredients":["urad dal","rice flour","black peppercorns","cumin seed","ghee","curry leaves","salt","asafoetida powder","ravva","oil"]}
+{"cuisine":"mexican","id":46858,"ingredients":["black beans","garlic","taco shells","taco seasoning","shredded cheddar cheese","onions","lean ground beef","chunky salsa"]}
+{"cuisine":"japanese","id":47372,"ingredients":["honey","sugar","eggs","bread flour","milk"]}
+{"cuisine":"southern_us","id":28646,"ingredients":["sugar","salt","butter","stone-ground cornmeal","all-purpose flour","shortening","buttermilk"]}
+{"cuisine":"southern_us","id":703,"ingredients":["cholesterol free egg substitute","sugar","whole kernel corn, drain","all-purpose flour","2% reduced-fat milk","Country Crock® Spread"]}
+{"cuisine":"italian","id":42440,"ingredients":["Italian parsley leaves","chopped fresh mint","grated parmesan cheese","garlic cloves","fresh dill","toasted walnuts","grated lemon peel","chopped fresh chives","walnut oil"]}
+{"cuisine":"japanese","id":49256,"ingredients":["cockles","bonito flakes","konbu","white miso","seaweed","water","fresh mushrooms","firm silken tofu","scallions"]}
+{"cuisine":"southern_us","id":14559,"ingredients":["white sugar","apple cider","apples","brown sugar"]}
