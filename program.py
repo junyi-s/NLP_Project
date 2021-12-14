@@ -247,7 +247,7 @@ def main(args):
 		for abs_data in sorted_cosine[q_num]:
 			if (abs_data[1] == 0):
 				continue
-			f_output.write(str(q_num) + " " + str(cuisine_abstract[abs_data[0]]) + " " + cuisine_query[t] + "\n")
+			f_output.write(str(q_num) + " " + str(cuisine_abstract[abs_data[0]]) + "\n")
 # 			t += 1
 			break
 
